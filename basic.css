@@ -1,0 +1,183 @@
+@font-face {
+    font-family: han-sans;
+    src: url('./HanSans.ttf');
+}
+
+@keyframes rounding-color {
+    0% {
+        background-color: #bbd8e7;
+    }
+
+    25% {
+        background-color: #a9d1a5;
+    }
+
+    50% {
+        background-color: #cfb8bf;
+    }
+
+    75% {
+        background-color: #dbd2aa;
+    }
+
+    100% {
+        background-color: #bbd8e7;
+    }
+}
+
+.link-icon{
+    height: 15px;
+    width: 15px;
+    transition: 0.2s;
+}
+.link-icon:hover{
+    height: 20px;
+    width: 20px;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+    background-color: #bbd8e7;
+
+    animation-name: rounding-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    font-family: han-sans;
+}
+
+header {
+    position: fixed;
+    z-index: 1919810;
+
+    background-color: dodgerblue;
+    color: #fff;
+    box-shadow: 0px 5px 50px #000;
+
+    width: 80%;
+    padding: 5px 10%;
+
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    /*主轴水平*/
+    align-items: center;
+    /*侧轴居中对齐*/
+    justify-content: space-between;
+}
+
+footer{
+    position: sticky;
+    background-color: #000;
+    color: #fff;
+
+    margin-top: 50px;
+    width: 80%;
+    height: 300px;
+    padding: 10px 10%;
+
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer > div{
+    width: calc(50% - 20px);
+    padding: 10px;
+}
+
+.inner-button {
+    border: #ffffff00 solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    color: dodgerblue;
+    font-family: han-sans;
+    font-size: 20px;
+    line-height: 20px;
+
+    transition: 0.2s;
+
+    margin-right: 5px;
+}
+
+.inner-button:hover {
+    border-color: #fff;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.inner-button:last-child {
+    margin-right: 0px;
+}
+
+#page-body{
+    padding-top: calc(40px + 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: calc(100vh - 80px);
+}
+.full-screen{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.block{
+    background-color: #ffffff20;
+
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #000;
+
+    padding: 10px 20px;
+    margin-bottom: 40px;
+
+    color: #000;
+    line-height: 20px;
+
+    transition: 0.25s;
+}
+.block:hover{
+    background-color: #ffffff87;
+}
+.block:last-child{
+    margin-bottom: 0px;
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: #ce64e3;
+}
+a:active{
+    color: #cfb8bf;
+}
