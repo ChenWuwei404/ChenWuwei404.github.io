@@ -1,0 +1,102 @@
+.info-card {
+    background-color: var(--background-color-neutral);
+    margin-block: var(--space-md);
+    border-radius: var(--border-radius-medium);
+    padding: var(--space-md);
+
+    transition: background-color var(--transition), color var(--transition);
+}
+
+.about-profile {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.about-avatar {
+    width: 5rem;
+}
+
+.about-author {
+    font-family: var(--font-family-monospace);
+    font-size: var(--font-size-xl);
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    font-size: var(--font-size-s);
+}
+
+.tag {
+    background-color: oklch(0.6 0.15 var(--tag-hue));
+    color: var(--color-fixed);
+    padding: 1px 4px;
+    border-radius: 4px;
+    white-space: none;
+}
+
+.about-article {
+    margin: 0 var(--space-md);
+    margin-block-start: var(--space-xl);
+}
+
+.about-article > p {
+    margin-block: var(--space-md);
+}
+
+.site-timeline {
+    margin: 0 var(--space-md);
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--border-color);
+    gap: var(--space-md);
+
+    transition: border-color var(--transition);
+}
+
+.timeline-block {
+    position: relative;
+    padding-left: var(--space-md);
+}
+
+.timeline-block::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: var(--border-color);
+    outline: 2px solid var(--background-color);
+    border-radius: 50%;
+    position: absolute;
+    left: -4.625px;
+    top: 14px;
+
+    transition: background-color var(--transition), outline-color var(--transition);
+}
+
+.timeline-block h2 {
+    font-size: var(--font-size-l);
+}
+
+.timeline-block time {
+    display: block;
+
+    font-size: var(--font-size-s);
+    font-family: var(--font-family-monospace);
+    margin-top: -0.5em;
+}
+
+.site-timeline a {
+    text-decoration: none;
+
+    color: var(--color-progressive);
+    font-weight: 500;
+
+    transition: color var(--transition);
+}
+
+.site-timeline a:hover {
+    color: var(--color-progressive-brighter);
+}

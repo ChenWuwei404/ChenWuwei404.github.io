@@ -1,0 +1,102 @@
+.article-area {
+    margin-block: var(--space-md);
+}
+
+.article-area > header {
+    display: flex;
+    align-items: center;
+}
+
+.article-page-title {
+    font-size: var(--font-size-xxl);
+}
+
+/* .article-page-actions {
+    margin-left: auto;
+}
+
+.article-page-favorite-toggle {
+    background-color: var(--color-gold);
+    border: none;
+    border-radius: var(--border-radius-base);
+    color: var(--color-fixed);
+}
+
+.article-page-favorite-icon {
+
+} */
+
+.article-page-meta {
+    display: flex;
+
+    align-items: baseline;
+    gap: var(--space-md);
+
+    font-size: var(--font-size-s);
+}
+
+#postCategories {
+    display: flex;
+    list-style: none;
+}
+
+#postCategories > li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    height: 0.25em;
+    width: 0.25em;
+    margin: 0.2em 0.25em;
+    border-radius: 50%;
+    background-color: currentColor;
+}
+
+#postContent {
+    margin-block: var(--space-xl);
+}
+
+#postContent > *,
+#postContent blockquote {
+    margin-block: var(--space-md);
+}
+
+#postContent a {
+    color: var(--color-progressive);
+    text-decoration: none;
+
+    transition: color var(--transition);
+}
+#postContent a:hover {
+    color: var(--color-progressive-brighter);
+}
+
+#postContent code:not(pre code) {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 2px 2px 0px 2px;
+    margin: 0 2px;
+
+    transition: border-color var(--transition);
+}
+
+#postContent pre {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: var(--space-xs);
+    background-color: var(--background-color-neutral);
+
+    transition: border var(--transition), background-color var(--transition);
+}
+
+#postContent blockquote {
+    background-color: var(--active-filter-color);
+    padding: var(--space-md) var(--space-xs);
+    padding-left: var(--space-md);
+    border-left: 4px solid var(--border-color);
+
+    transition: border var(--transition), background-color var(--transition);
+}
+
+#postContent ul,
+#postContent ol {
+    margin-left: var(--space-l);
+}

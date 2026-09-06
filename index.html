@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChenWuwei404</title>
+    <script src="/theme.js"></script>
+    <link rel="stylesheet" href="/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/granim@2.0.0/dist/granim.min.js" defer></script>
+    <script src="/fluent.js" defer></script>
+    <script src="/main-page-nav.js"></script>
+    <script src="/top-returner.js"></script>
+    <link rel="stylesheet" href="/top-returner.css" />
+</head>
+<body>
+    <nav class="navbar fixed-navbar hidden-navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="/assets/avatar.png" alt="Wuwei's avatar" class="avatar">
+                <span class="logo-text">ChenWuwei404</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" id="homeAnchor" class="active">首页</a></li>
+                <li><a href="/favorite.html" id="contactAnchor">收藏</a></li>
+                <li><a href="/about.html" id="aboutAnchor">关于</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button type="button" class="nav-button" id="themeToggle" title="切换主题"></button>
+                <button type="button" class="nav-button" id="menuToggle" aria-label="菜单"></button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main-page-screen">
+        <img src="/assets/avatar.png" alt="Wuwei's avatar" class="avatar screen-avatar">
+        <p class="screen-name">ChenWuwei404</p>
+        <p class="screen-sign">
+            <span class="no-wrap-span">计算机的乐趣就在于：</span>
+            <span class="no-wrap-span">你暂时做不出这个功能，</span>
+            <span class="no-wrap-span">但是你知道，</span>
+            <span class="no-wrap-span">它一定是能实现的</span>
+        </p>
+        <div class="screen-background">
+            <canvas id="screen-background-canvas"></canvas>
+        </div>
+    </section>
+
+    <main class="container main-grid">
+
+        <section class="articles-section">
+            <div class="section-header">
+                <h2>最新文章</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索文章..." />
+                </div>
+            </div>
+
+            <div class="category-filters" id="categoryFilters">
+                <!-- JS -->
+            </div>
+
+            <div class="articles-grid" id="articlesGrid">
+                <!-- JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-profile">
+                <img src="/assets/avatar.png" alt="Wuwei's avatar" class="avatar footer-avatar">
+                <div>
+                    <p class="footer-author">ChenWuwei404</p>
+                    <p class="footer-site">Personal Blog</p>
+                </div>
+            </div>
+            <div class="footer-details">
+                <div class="footer-links-bar">
+                    <a href="https://github.com/ChenWuwei404/" title="GitHub" class="footer-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 22v-3q0-2 1-3A7 6.5 0 0 1 5 5Q4 3 5 1q3 0 4 2q3-1 6 0q2-2 4-2q1 2 0 4a7 6.5 0 0 1-5 11q1 1 1 3v3M2 17c2 0 3 4 7 2"/></svg>
+                    </a>
+                    <a href="https://space.bilibili.com/1856821652" title="Bilibili" class="footer-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="20" height="16" x="2" y="5" rx="4"/><path d="m7 2l3 3m7-3l-3 3m-5 9v-2m6 0v2"/></g></svg>
+                    </a>
+                    <a href="https://x.com/chenwuwei404" title="X" class="footer-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 21l7.54-7.54m2.92-2.92L21 3M8 3H3l13 18h5Z"/></svg>
+                    </a>
+                    <a href="mailto:uplantting@163.com" title="Email" class="footer-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m2 8l10 5l10-5"/></g></svg>
+                    </a>
+                    </div>
+                <p class="footer-license">Articles & Graphs under CC-BY-NC SA</p>
+                <p>Made with template from west2-online</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/articles.js" defer></script>
+    <script src="/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.top-return-button {
+    position: sticky;
+    bottom: 100px;
+    z-index: 100;
+
+    float: right;
+
+    border: none;
+    border-radius: var(--border-radius-base);
+
+    background-color: var(--glass-filter-color);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+
+    color: inherit;
+
+    width: var(--space-xxl);
+    height: var(--space-xxl);
+
+    padding: var(--space-xs);
+    margin: var(--space-xxl) 0;
+    
+    cursor: pointer;
+
+    transition: background-color var(--transition), color var(--transition), opacity var(--transition);
+}
+
+.top-return-button-hidden {
+    pointer-events: none;
+    opacity: 0.0;
+}

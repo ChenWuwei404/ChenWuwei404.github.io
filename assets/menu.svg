@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="menu.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="17.928103"
+     inkscape:cx="20.080206"
+     inkscape:cy="23.845244"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="634"
+     inkscape:window-y="2149"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 | F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 | F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1 @ F,0,0,1,0,2,0,1"
+       radius="2"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1-8"
+       style="fill:#9a9a9a;fill-opacity:1;stroke-width:23.4248;stroke-linejoin:round"
+       d="m 6,10 a 2,2 45 0 0 2,2 l 32,0 A 2,2 135 0 0 42,10 2,2 45 0 0 40,8 H 8 a 2,2 135 0 0 -2,2 z m 0,14 a 2,2 45 0 0 2,2 l 32,0 a 2,2 135 0 0 2,-2 2,2 45 0 0 -2,-2 H 8 a 2,2 135 0 0 -2,2 z m 0,14 a 2,2 45 0 0 2,2 h 32 a 2,2 135 0 0 2,-2 2,2 45 0 0 -2,-2 H 8 a 2,2 135 0 0 -2,2 z"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="m 6,8 v 4 H 42 V 8 Z m 0,14 v 4 h 36 v -4 z m 0,14 v 4 h 36 v -4 z" />
+  </g>
+</svg>
